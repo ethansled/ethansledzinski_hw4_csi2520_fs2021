@@ -1,0 +1,191 @@
+head{
+    color: #005689;
+    background-color: #d5eeff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    color: #005689;
+    background-color: #d5eeff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    color: #005689;
+    background-color: #ff895d;
+    border: #007cb9;
+    border-style: solid;
+}
+
+h2{
+    color: #005689;
+    background-color: #ff895d;
+    border: #007cb9;
+    border-style: solid;
+}
+
+ img{
+     border: #007cb9;
+     border-style: solid;
+ }
+
+ label, progress{
+    color: #005689;
+    background-color: #ff895d;
+    border: #007cb9;
+    border-style: solid;
+ }
+
+ footer{
+     text-align: center;
+ }
+
+ blockquote{
+    color: #005689;
+    background-color: #ff895d;
+    border: #007cb9;
+    border-radius: 30%;
+    border-style: solid;
+    text-align: center;
+ }
+
+iframe{
+    color: #005689;
+    background-color: #ff895d;
+    border: #007cb9;
+    border-radius: 10%;
+    border-style: solid;
+    text-align: center;
+ }
+
+ audio{
+    color: #005689;
+    background-color: #ff895d;
+    border: #007cb9;
+    border-radius: 10%;
+    border-style: solid;
+    text-align: center;
+ }
+
+ .menu{
+    color: #005689;
+    background-color: #ff895d;
+    border: #007cb9;
+    border-radius: 100%;
+    border-style: solid;
+    display: block;
+    float: right;
+    padding: 2%;
+    margin: 6%;
+    clear: both; 
+    overflow: auto;
+ }
+
+ .logo{
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 95%;
+    padding: 2%;
+    
+ }
+
+
+ #intro{
+    color: #005689;
+    background-color: #ff895d;
+    border: #007cb9;
+    border-style: solid;
+    text-align: left;
+ }
+
+ #intro::first-letter{
+     color: #007cb9;
+     font-style: oblique;
+     font-size: 225%;
+ }
+
+ a:hover{
+    background-color: #ffff00;
+    font-size: 100%;
+    color: #005689; 
+ }
+
+ .active{
+    background-color: #ffff00; 
+ }
+
+ .section1 {
+   font-size: 20px;
+   color: #005689;
+   margin-bottom: 20px;
+   margin-left: 36%;
+   margin-top: 1%;
+   border-radius: 20px;
+}
+
+.section1 iframe{
+   border-style: double;
+   border-radius: 25px;
+}
+
+.section1 h2{
+   float: left;
+   margin-top: 3%;
+   margin-left: 1%;
+   margin-bottom: 2%;
+}
+ .main{
+    color: #005689;
+    text-align: left;
+    font-size: 18px;
+    width: 50%;
+    padding-left: 10px;
+    margin-left: 24%;
+    margin-bottom: 1%;
+ }
+
+
+ .container {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   margin-left: 25%;
+   
+}
+#label{
+   text-align: center;
+   color: #005689;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+#comment{
+   width: 940px;
+   margin-bottom: 10px;
+   resize: none;
+   color: #005689;
+   border: 2px;
+   border-style: groove;
+   border-color: #007cb9;
+}
+#addComments {
+   width: 20%;
+   padding: 5px;
+   background-color: #ff895d;
+   color: #005689;
+   align-self: center;
+   margin-bottom: 10px;
+   border: 2px;
+   border-style: groove;
+   border-color: #007cb9;
+}
+
+/* style to reply button in .js */
+.wrapper > button{ 
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-right: 5px;
+   padding: 5px;
+   background-color: #ff895d;
+   color: #005689;
+}
