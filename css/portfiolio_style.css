@@ -118,21 +118,20 @@ iframe{
  .section1 {
    font-size: 20px;
    color: #005689;
-   margin-bottom: 20px;
-   margin-left: 36%;
+   margin-bottom: 5%;
+   margin-left: 20%;
    margin-top: 1%;
-   border-radius: 20px;
 }
 
 .section1 iframe{
    border-style: double;
-   border-radius: 25px;
+   border-radius: 5%;
 }
 
 .section1 h2{
    float: left;
    margin-top: 3%;
-   margin-left: 1%;
+   margin-left: 6%;
    margin-bottom: 2%;
 }
  .main{
@@ -140,7 +139,7 @@ iframe{
     text-align: left;
     font-size: 18px;
     width: 50%;
-    padding-left: 10px;
+    padding-left: 1%;
     margin-left: 24%;
     margin-bottom: 1%;
  }
@@ -151,6 +150,10 @@ iframe{
    display: flex;
    flex-direction: column;
    margin-left: 25%;
+   background-color: #005689;
+   border-radius: 2%;
+   border-style: groove;
+   border-color: #ff895d; 
    
 }
 #label{
@@ -180,7 +183,6 @@ iframe{
    border-color: #007cb9;
 }
 
-/* style to reply button in .js */
 .wrapper > button{ 
    margin-top: 10px;
    margin-bottom: 10px;

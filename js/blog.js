@@ -13,9 +13,6 @@ function addComment(ev) {
     const replyButton = document.createElement('button');
     replyButton.className = 'reply';
     replyButton.innerHTML = 'Reply';
-    const likeButton = document.createElement('button');
-    likeButton.innerHTML = 'Like';
-    likeButton.className = 'likeComment';
     const deleteButton = document.createElement('button');
     deleteButton.innerHTML = 'Delete';
     deleteButton.className = 'deleteComment';
@@ -26,16 +23,16 @@ function addComment(ev) {
         commentText = document.getElementById('newComment').value;
         document.getElementById('newComment').value = '';
         textBox.innerHTML = commentText;
-        textBox.style.backgroundColor = "#d5eeff";
-        wrapDiv.append(textBox, replyButton, likeButton, deleteButton);
+        textBox.style.backgroundColor = "#ff895d";
+        wrapDiv.append(textBox, replyButton, deleteButton);
         commentContainer.appendChild(wrapDiv);
     } else {
         wrapDiv = ev.target.parentElement;
         commentText = ev.target.parentElement.firstElementChild.value;
         textBox.innerHTML = commentText;
-        textBox.style.backgroundColor = "#d5eeff";
+        textBox.style.backgroundColor = "#ff895d";
         wrapDiv.innerHTML = '';
-        wrapDiv.append(textBox, replyButton, likeButton, deleteButton);
+        wrapDiv.append(textBox, replyButton, deleteButton);
     }
     setOnLocalStorage();
 }
@@ -65,10 +62,6 @@ document.getElementById('allComments').addEventListener('click', function (e) {
 
     } else if(hasClass(e.target, 'addReply')) {
         addComment(e);
-    } else if(hasClass(e.target, 'likeComment')) {
-         const likeBtnValue = e.target.innerHTML;
-         e.target.innerHTML = likeBtnValue !== 'Like' ? Number.parseInt(likeBtnValue) + 1 : 1;
-        setOnLocalStorage();
     } else if(hasClass(e.target, 'cancelReply')) {
         e.target.parentElement.innerHTML = '';
         setOnLocalStorage();
