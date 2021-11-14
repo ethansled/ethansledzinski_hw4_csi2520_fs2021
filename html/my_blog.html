@@ -24,27 +24,26 @@
         </header>
 
         <h1>My Blog</h1>
-        <section class="section1">
-            <h2>TCP Meltdown - Dr Steve Bagley</h2>
-            <iframe width="515" height="350" src="https://www.youtube.com/embed/AAssk2N_oPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-       
-        <div class="main">
+        <section>
+            <h2 id="secH2">Saving the Universe - Dr Julian Onions</h2>
+            <iframe id="secIframe" width="560" height="315" src="https://www.youtube.com/embed/_QJPcmPu4QI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>
-                This video is why it's a bad idea to build a Virtual Private Network using TCP...
+                If your job involves simulating the creation of the universe,<br>
+                you're going to need a big computer. Dr Julian Onions on the practicalities <br>
+                of saving your universe simulation when it's terabytes in size, and in a different <br>
+                country! Dr. Onious needs a super computer for the task and in this video he goes over <br>
+                how this process should be layed
             </p>
-        </div>
-
+        </section>
         
-        <div class="container">
-            <label id="label" for="newComment" name="newComment">Post A Comment</label>
-            <br>
-            <textarea id="newComment"></textarea>
-            <br>
-            <button id="addComments">Add Comment</button>
-            <div id="allComments"></div>
+        <div class="conta">
+            <label for="commentZone" id="label">Click To --></label>
+            <button id="lComment" >Leave A Comment</button>
+            <textarea id="commentZone" rows="4"></textarea>
+            <button id="pComments">Post Comment</button>
+            <div id="usComments">
+            </div>
         </div>
-    
     
     <footer>
         <hr>
